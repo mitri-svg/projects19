@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+    padding: 2px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 60px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    font-size: 1.4em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    margin-top: 2px;
+    flex-wrap: wrap;
+}
+.box{
+    flex: 1 0 200px;
+    margin: 1px;
+    height: 250px;
+    border: 2px solid black;
+}
+.item1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+}
+nav{
+    height: 70px;
+    border: 2px solid black;
+    margin-top: 2px;
+}
+nav>h1{
+    display: flex;
+    justify-content: center;
+}
+nav>p{
+    display: flex;
+    justify-content: center;
+}
+nav>a{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+.img1{
+    background-image: url(img1davud.jpeg);
+    height: 150px;
+    margin: auto;
+    width: 140px;
+}
+.img2{
+    background-image: url(img2hemid.jpeg);
+    height: 150px;
+    margin: auto;
+    width: 140px;
+}
+.img3{
+    background-image: url(img4anar.jpeg);
+    height: 150px;
+    margin: auto;
+    width: 140px;
+}
+.img4{
+    background-image: url(img3ramo.png);
+    height: 150px;
+    margin: auto;
+    width: 140px;
+}
+.img5{
+    background-image: url(img5leyla.jpeg);
+    height: 150px;
+    margin: auto;
+    width: 140px;
+}
